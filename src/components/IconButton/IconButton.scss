@@ -1,0 +1,11 @@
+.IconButton {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 1px;
+  align-items: center;
+
+  & > p {
+    vertical-align: middle;
+    margin: auto 2px auto 2px;
+  }
+}
