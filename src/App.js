@@ -1,5 +1,8 @@
+import React from "react";
+import Home from "./pages/Home/index";
+
 function App() {
-  return null;
+  return <Home />;
 }
 
 export default App;

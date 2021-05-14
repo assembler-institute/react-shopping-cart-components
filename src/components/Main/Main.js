@@ -1,7 +1,8 @@
 import React from "react";
 
-function Main() {
-  return <div />;
+function Main({ children, ...props }) {
+  const element = <main {...props}>{children}</main>;
+  return element;
 }
 
 export default Main;
